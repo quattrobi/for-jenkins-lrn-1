@@ -6,22 +6,30 @@ pipeline {
     stages {
     
 	stage ('checkout...') {
-	    echo "checkout"
+	    steps {
+		echo "checkout"
+	    }
 	}
 
 	
 	stage ('build') {
-	    echo "build"
+	    steps {
+		echo "build"
+	    }
 	}
 	
 
 	stage ('test') {
-	    echo "test"
+	    steps {
+		echo "test"
+	    }
 	}
 	
 	
 	stage ('package') {
-	    echo "package"
+	    steps {
+		echo "package"
+	    }
 	}
 	
 	
